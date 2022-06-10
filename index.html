@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+   
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyD5AmsPHnEHiUUc2erZcQSwJRVatymixs4",
+    authDomain: "juego-de-las-frutitas.firebaseapp.com",
+    databaseURL: "https://juego-de-las-frutitas-default-rtdb.firebaseio.com",
+    projectId: "juego-de-las-frutitas",
+    storageBucket: "juego-de-las-frutitas.appspot.com",
+    messagingSenderId: "39633457994",
+    appId: "1:39633457994:web:67d02daec543195c7227b3"
+      };
+      // Inicia Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+
+
+
+</body></html>
